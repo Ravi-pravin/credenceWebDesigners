@@ -1,0 +1,318 @@
+.navBarSection {
+    background-color: #2b3644;
+}
+
+.navbar-brand img {
+    height: 8.5rem;
+    width: 8.5rem;
+    margin: 1rem;
+}
+
+.navbarr {
+    padding-left: 10rem;
+}
+
+.navbarr h3 {
+    font-family: var(--ffPrimary);
+    font-size: 3rem;
+    font-weight: 700;
+    color: #74d8c2;
+}
+
+.navbarr h3:hover {
+    color: #0ace21;
+}
+
+.navIconBox .navicon {
+    height: 3rem;
+    width: 3rem;
+    font-size: 3rem;
+    color: #74d8c2;
+    background-color: #1278AB;
+    padding: 3rem;
+}
+
+.navIconBox .navicon:hover {
+    color: #ffffff;
+    background-color: #0ae418;
+}
+
+.navbar-nav .navlink {
+    color: #74d8c2;
+    font-weight: 800;
+    margin: 0.5rem;
+}
+
+.navContactBox .navlink {
+    color: #ffffff;
+    font-weight: 800;
+
+}
+
+.navbar-nav .navlink:hover {
+    color: #03860b;
+}
+
+.nav-link {
+    color: #74d8c2;
+}
+
+.navContactBox {
+    background-color: #1278AB;
+    padding: 0.5rem 0.5rem;
+}
+
+.navContactBox:hover {
+    background-color: #0ace21;
+}
+
+
+.hero{
+    background-color: #ffffff;
+}
+.hero .container-fluid {
+    background-image: url(./assets/images/49.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 50% 100%, 0% 80%);
+}
+
+.hero .card {
+    padding: 10rem 0rem 50rem;
+}
+
+.hero-card-title {
+    font-family: var(--ffPrimary);
+    font-size: 7.2rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.hero-card-text {
+    font-family: var(--ffSecondary);
+    font-size: 2rem;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+.heroButtonBox .btn {
+    font-family: var(--ffSecondary);
+    background-color: #41c3e5;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #ffffff;
+    padding: 1rem 4rem;
+}
+
+
+
+
+
+.headingFont {
+    margin: 7rem 0rem 10rem 0rem;
+    font-family: var(--ffPrimary);
+    font-size: 4rem;
+    font-weight: 400;
+    color: #1278ab;
+    font-weight: 700;
+}
+
+.benefitsSubtitle {
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 8px;
+    color: #2a445a;
+}
+
+.benefitsPara {
+    font-family: var(--ffSecondary);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin-bottom: 8px;
+    margin-bottom: 14rem;
+}
+
+
+
+.not h3 {
+    font-family: var(--ffPrimary);
+    font-size: 4rem;
+    font-weight: 400;
+    color: #74d8c2;
+    font-weight: 700;
+    padding: 6rem 0rem;
+    width: 45rem;
+}
+
+.not h5 {
+    font-family: var(--ffPrimary);
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #74d8c2;
+    font-weight: 700;
+}
+
+.not p {
+    font-family: var(--ffPrimary);
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.not .container-fluid {
+    background-color: #1278ab;
+}
+
+.simple i {
+    font-size: 4rem;
+    color: #07adb7;
+}
+
+.simple h2 {
+    font-family: var(--ffPrimary);
+    font-size: 4rem;
+    font-weight: 400;
+    color: #1278ab;
+    font-weight: 700;
+    margin-top: 5rem;
+}
+
+.simplePara {
+    margin-bottom: 10rem;
+}
+
+.simpleicon {
+    margin-bottom: 5rem;
+}
+
+.simpleicon i {
+    margin: 1rem;
+}
+
+.simpleicon h5 {
+    font-size: 1.6rem;
+}
+
+.Portfolio {
+    background-color: #74d8c2;
+}
+
+.Portfolio .row {
+    padding: 5rem 0rem;
+}
+
+.Portfolio h2 {
+    font-family: var(--ffPrimary);
+    font-size: 4rem;
+    font-weight: 700;
+    color: #1278ab;
+}
+
+.portimg1 img {
+    height: 25rem;
+    width: 30rem;
+}
+
+.portimg2 img {
+    height: 25rem;
+    width: 30rem;
+}
+
+.portfolioimg img {
+    margin: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #2b3644;
+}
+
+.footer-card-title {
+    font-family: var(--ffPrimary);
+    font-size: 3rem;
+    font-weight: 700;
+    color: #41c3e5;
+    cursor: pointer;
+}
+
+.footer-card-text {
+    font-family: var(--ffPrimary);
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer-card-sub-title {
+    font-family: var(--ffPrimary);
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #41c3e5;
+    cursor: pointer;
+}
+
+.footerlink li {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #FFFFFFB3;
+    text-align: center;
+    line-height: 5rem;
+    cursor: pointer;
+}
+
+.footerlink li:hover {
+    color: #ffffff;
+}
+
+.footer {
+    padding: 3rem 0rem;
+}
+
+.footerIconBox .icon {
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+    color: #74d8c2;
+    background-color: #1278AB;
+}
+
+.footerIconBox .icon:hover {
+    color: #ffffff;
+    background-color: #0ae418;
+}
+
+
+
+
+.copy {
+    background-color: #000;
+    max-width: 100%;
+}
+
+.copyPara {
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+
+
+
+.whatsapp {
+    background-color: #12e924;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    cursor: pointer;
+}
+
+.whatsapp i {
+    font-size: 5rem;
+    padding: 1rem;
+}
