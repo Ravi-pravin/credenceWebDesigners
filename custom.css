@@ -168,6 +168,9 @@
     font-weight: 400;
     color: #ffffff;
 }
+.not .card{
+    margin: 2rem;
+}
 
 .not .container-fluid {
     background-color: #1278ab;
