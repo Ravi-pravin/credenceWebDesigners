@@ -204,6 +204,29 @@ footer {
     .grid-2,
     .grid-3,
     .grid-4 {
+        display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .navbarr{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .navbar-brand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navIconBox{
+        padding-right: 10rem;
+        /* width: 100%; */
+    }
+    .navlinks{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 }
