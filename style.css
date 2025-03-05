@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -79,7 +80,7 @@ a {
     --ffSecondary: "Raleway", sans-serif;
     --border: 1px solid var(--primaryColor);
     --borderRadius: 0.5rem;
-  } 
+}
 
 /* project standard classes Starts */
 
@@ -204,7 +205,32 @@ footer {
     .grid-2,
     .grid-3,
     .grid-4 {
-
+        display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .navbarr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navIconBox {
+        padding-right: 10rem;
+        /* width: 100%; */
+    }
+
+    .navlinks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 }
