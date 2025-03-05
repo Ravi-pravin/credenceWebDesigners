@@ -66,7 +66,6 @@
     background-color: #0ace21;
 }
 
-
 .hero{
     background-color: #ffffff;
 }
@@ -113,8 +112,6 @@
 
 
 
-
-
 .headingFont {
     margin: 7rem 0rem 10rem 0rem;
     font-family: var(--ffPrimary);
@@ -152,6 +149,7 @@
     font-weight: 700;
     padding: 6rem 0rem;
     width: 45rem;
+    margin: 0rem 2rem;
 }
 
 .not h5 {
@@ -168,13 +166,14 @@
     font-weight: 400;
     color: #ffffff;
 }
-/* .not .card{
-    margin: 2rem;
-} */
-
-.not .container-fluid {
+.not {
     background-color: #1278ab;
 }
+.not .card i{
+    font-size: 5rem;
+}
+
+
 
 .simple i {
     font-size: 4rem;
@@ -206,12 +205,14 @@
     font-size: 1.6rem;
 }
 
+
+
 .Portfolio {
     background-color: #74d8c2;
 }
 
 .Portfolio .row {
-    padding: 5rem 0rem;
+    padding: 3rem 0rem;
 }
 
 .Portfolio h2 {
@@ -221,20 +222,13 @@
     color: #1278ab;
 }
 
-.portimg1 img {
-    height: 25rem;
+.portimg img {
+    height: 20rem;
     width: 30rem;
+    margin: 1rem;
 }
 
-.portimg2 img {
-    height: 25rem;
-    width: 30rem;
-}
 
-.portfolioimg img {
-    margin: 0.5rem 1rem;
-    cursor: pointer;
-}
 
 .footer {
     background-color: #2b3644;
