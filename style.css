@@ -209,30 +209,6 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    /* .navbarr {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .navbar-brand {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .navIconBox {
-        padding-right: 10rem;
-        /* width: 100%; */
-    }
-
-    .navlinks {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    } */
     .Portfolio .imagecol{
         display: flex;
         align-items: center;
