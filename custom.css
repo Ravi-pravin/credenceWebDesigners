@@ -1,68 +1,6 @@
-/* .navBarSection {
+.navBarSection {
     background-color: #2b3644;
 }
-
-.navbar-brand img {
-    height: 8.5rem;
-    width: 8.5rem;
-    margin: 1rem;
-}
-
-.navbarr h3 {
-    font-family: var(--ffPrimary);
-    font-size: 3rem;
-    font-weight: 700;
-    color: #74d8c2;
-}
-
-.navbarr h3:hover {
-    color: #0ace21;
-}
-
-.navIconBox .navicon {
-    height: 3rem;
-    width: 3rem;
-    font-size: 3rem;
-    color: #74d8c2;
-    background-color: #1278AB;
-    padding: 3rem;
-}
-
-.navIconBox .navicon:hover {
-    color: #ffffff;
-    background-color: #0ae418;
-}
-
-.navbar-nav .navlink {
-    color: #74d8c2;
-    font-weight: 800;
-    margin: 0.5rem;
-}
-
-.navContactBox .navlink {
-    color: #ffffff;
-    font-weight: 800;
-
-}
-
-.navbar-nav .navlink:hover {
-    color: #03860b;
-}
-
-.nav-link {
-    color: #74d8c2;
-}
-
-.navContactBox {
-    background-color: #1278AB;
-    padding: 0.5rem 0.5rem;
-}
-
-.navContactBox:hover {
-    background-color: #0ace21;
-} */
-
-
 .navbar img {
     height: 8rem;
     width: 8rem;
@@ -98,9 +36,17 @@
 .navContactBox:hover {
     background-color: #0ace21;
 }
-
-
-
+.navlink {
+    color: #74d8c2;
+    font-weight: 800;
+}
+.navbar-nav .navlink:hover {
+    color: #03860b;
+}
+.navcontact{
+    color: #ffffff;
+    font-weight: 800;
+}
 
 .hero {
     background-color: #ffffff;
