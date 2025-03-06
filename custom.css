@@ -1,4 +1,4 @@
-.navBarSection {
+/* .navBarSection {
     background-color: #2b3644;
 }
 
@@ -60,11 +60,52 @@
 
 .navContactBox:hover {
     background-color: #0ace21;
+} */
+
+
+.navbar img {
+    height: 8rem;
+    width: 8rem;
 }
 
-.hero{
+
+.navIconBox .navicon {
+    height: 3rem;
+    width: 3rem;
+    font-size: 3rem;
+    color: #74d8c2;
+    background-color: #1278AB;
+    padding: 3rem;
+}
+
+.navIconBox .navicon:hover {
+    color: #ffffff;
+    background-color: #0ae418;
+}
+
+.navbar-brand {
+    font-family: var(--ffPrimary);
+    font-size: 3rem;
+    font-weight: 700;
+    color: #74d8c2;
+}
+
+.navContactBox {
+    background-color: #1278AB;
+    padding: 0.5rem 0.5rem;
+}
+
+.navContactBox:hover {
+    background-color: #0ace21;
+}
+
+
+
+
+.hero {
     background-color: #ffffff;
 }
+
 .hero .container-fluid {
     background-image: url(./assets/images/49.jpg);
     background-repeat: no-repeat;
@@ -102,8 +143,9 @@
     padding: 1rem 4rem;
     margin: 1rem;
 }
+
 .heroButtonBox .btn:hover {
-    background-color:#00ffff;
+    background-color: #00ffff;
 }
 
 
@@ -162,10 +204,12 @@
     font-weight: 400;
     color: #ffffff;
 }
+
 .not {
     background-color: #1278ab;
 }
-.not .row i{
+
+.not .row i {
     font-size: 5rem;
 }
 

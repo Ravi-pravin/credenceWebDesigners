@@ -209,7 +209,7 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .navbarr{
+    /* .navbarr{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -220,7 +220,7 @@ footer {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    }
+    } */
     
 
 }
