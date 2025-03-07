@@ -1,11 +1,22 @@
+.logoimg img {
+    height: 8rem;
+    cursor: pointer;
+}
+
 .navBarSection {
     background-color: #2b3644;
 }
-.navbar img {
-    height: 8rem;
-    width: 8rem;
+.navicon a {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #74d8c2;
+    font-family: var( --ffPrimary);
 }
-
+.navicon a:hover {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0ae418;
+}
 
 .navIconBox .navicon {
     height: 3rem;
@@ -14,6 +25,7 @@
     color: #74d8c2;
     background-color: #1278AB;
     padding: 3rem;
+    cursor: pointer;
 }
 
 .navIconBox .navicon:hover {
@@ -21,31 +33,29 @@
     background-color: #0ae418;
 }
 
-.navbar-brand {
-    font-family: var(--ffPrimary);
-    font-size: 3rem;
-    font-weight: 700;
-    color: #74d8c2;
-}
-
-.navContactBox {
-    background-color: #1278AB;
-    padding: 0.5rem 0.5rem;
-}
-
-.navContactBox:hover {
-    background-color: #0ace21;
-}
-.navlink {
-    color: #74d8c2;
+.navlink a {
     font-weight: 800;
+    color: #74d8c2;
+    font-family: var(--Primary);
+    font-size: 1.6rem;
+    margin: 0rem 1rem;
 }
-.navbar-nav .navlink:hover {
-    color: #03860b;
+
+.navlink a:hover {
+    color: #0ae418;
+
 }
-.navcontact{
+
+.contact button {
+    font-size: 1.6rem;
+    background-color: #1278AB;
     color: #ffffff;
     font-weight: 800;
+}
+
+.contact button:hover {
+    background-color: #0ae418;
+
 }
 
 .hero {
