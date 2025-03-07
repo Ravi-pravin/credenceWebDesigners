@@ -208,19 +208,5 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
     }
-
-    /* .navbarr{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .navlinks{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    } */
     
-
 }
