@@ -106,6 +106,7 @@
     color: #ffffff;
     padding: 1rem 4rem;
     margin: 1rem;
+    text-decoration: none;
 }
 
 .heroButtonBox .auditbtn:hover {
@@ -119,6 +120,7 @@
     color: #ffffff;
     padding: 1rem 4rem;
     margin: 1rem;
+    text-decoration: none;
 }
 
 .heroButtonBox .learnbtn:hover {
