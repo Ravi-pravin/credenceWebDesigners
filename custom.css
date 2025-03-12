@@ -56,6 +56,16 @@
     background-color: #0ae418;
 }
 
+.navbar-toggler {
+    border-color: #ffffff;
+    border: none;
+}
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+
+
 .hero {
     background-color: #ffffff;
 }
@@ -70,7 +80,7 @@
 }
 
 .hero .card {
-    padding: 10rem 0rem 50rem;
+    padding: 8rem 0rem 45rem;
 }
 
 .hero-card-title {
@@ -88,7 +98,7 @@
     margin-bottom: 3rem;
 }
 
-.heroButtonBox .btn {
+.heroButtonBox .auditbtn {
     font-family: var(--ffSecondary);
     background-color: #41c3e5;
     font-size: 1.8rem;
@@ -98,8 +108,21 @@
     margin: 1rem;
 }
 
-.heroButtonBox .btn:hover {
-    background-color: #00ffff;
+.heroButtonBox .auditbtn:hover {
+    background-color: #74d8c2;
+}
+.heroButtonBox .learnbtn {
+    font-family: var(--ffSecondary);
+    background-color: #74d8c2;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #ffffff;
+    padding: 1rem 4rem;
+    margin: 1rem;
+}
+
+.heroButtonBox .learnbtn:hover {
+    background-color: #41c3e5;
 }
 
 
