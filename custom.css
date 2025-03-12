@@ -21,10 +21,10 @@
 .navIconBox .navicon {
     height: 3rem;
     width: 3rem;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #74d8c2;
     background-color: #1278AB;
-    padding: 3rem;
+    padding: 2rem;
     cursor: pointer;
 }
 
@@ -43,7 +43,6 @@
 
 .navlink a:hover {
     color: #0ae418;
-
 }
 
 .contact button {
@@ -55,7 +54,6 @@
 
 .contact button:hover {
     background-color: #0ae418;
-
 }
 
 .hero {
@@ -63,7 +61,7 @@
 }
 
 .hero .container-fluid {
-    background-image: url(./assets/images/49.jpg);
+    background-image: url(./assets/images/heroimage.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
